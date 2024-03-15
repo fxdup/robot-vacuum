@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find-pkg-share gazebo_ros)/launch/gazebo.launch.py">
+    <arg name="world_name" value="$(find-pkg-share robot_vacuum_gazebo)/worlds/robot_vacuum.world"/>
+    <arg name="server" value="true"/>
+  </include>
+</launch>
